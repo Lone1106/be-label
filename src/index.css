@@ -6,5 +6,7 @@
 
 * {
 	font-family: Titillium Web, sans-serif;
+	font-size: 18px;
 	color: #212121;
+	box-sizing: border-box;
 }

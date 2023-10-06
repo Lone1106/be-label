@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   theme: {
     extend: {
+      translate: {
+        neg: "-50%",
+      },
       fontFamily: {
         titillium: "'Titillium Web', 'sans-serif'",
       },
