@@ -1,5 +1,5 @@
 function App() {
-  return <h1>BE Label</h1>;
+  return <Landing />;
 }
 
 export default App;
