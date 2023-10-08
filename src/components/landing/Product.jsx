@@ -16,8 +16,8 @@ const Product = ({ title, image, direction }) => {
 			<div className={classesImgCont}>
 				<img src={image} alt="Product image" className="w-48" />
 			</div>
-			<div className="w-full h-full md:w-4/5 flex flex-col items-center lg:items-start justify-center gap-2">
-				<h3 className="font-bold text-xl md:text-3xl">{title}</h3>
+			<div className="w-full h-full lg:w-4/5 flex flex-col items-start justify-center gap-2">
+				<h4 className="font-bold text-xl">{title}</h4>
 				<p className="text-base text-sm lg:text-lg">
 					Lorem ipsum dolor sit amet consectetur. A lacinia bibendum eu
 					fringilla sem ultricies. Vitae suspendisse sed blandit egestas eu

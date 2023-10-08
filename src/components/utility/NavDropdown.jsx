@@ -14,7 +14,9 @@ const NavDropdown = ({ title, destMain }) => {
 
 	return (
 		<li className="relative w-max">
-			<NavItem text={title} dest={destMain} />
+			<span onClick={resetDropdown}>
+				<NavItem text={title} dest={destMain} />
+			</span>
 			<i
 				className="fa-solid fa-chevron-down ml-2 cursor-pointer"
 				onClick={toggleDropdown}

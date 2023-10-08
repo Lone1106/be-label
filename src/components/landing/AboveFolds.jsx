@@ -1,4 +1,4 @@
-import Building from "../../img/building.png";
+import Building from "../../img/building.webp";
 import ButtonMain from "../utility/ButtonMain";
 
 const AboveFolds = () => {
@@ -9,7 +9,7 @@ const AboveFolds = () => {
 				src={Building}
 				alt="Picture of company building"
 			/>
-			<div className="flex flex-col gap-6 justify-center items-center px-4 lg:px-44 text-center w-full">
+			<div className="flex flex-col gap-6 justify-center items-center px-12 xl:px-44 text-center w-full">
 				<h1 className="text-light text-3xl md:text-5xl lg:text-7xl font-bold">
 					Die innovativste Etikettendruckerei Europas.
 				</h1>

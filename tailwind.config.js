@@ -7,7 +7,7 @@ export default {
         neg: "-50%",
       },
       height: {
-        land: "70vh",
+        land: "80vh",
       },
       fontFamily: {
         titillium: "'Titillium Web', 'sans-serif'",

@@ -2,10 +2,87 @@ import HeadingMain from "../utility/HeadingMain";
 
 const Quality = () => {
 	return (
-		<HeadingMain
-			text="Qualität"
-			descr="Wir sind mehr als nur qualitätsbewusst."
-		/>
+		<section>
+			<HeadingMain
+				text="Qualität"
+				descr="Wir sind mehr als nur qualitätsbewusst."
+			/>
+
+			<figure className="px-12 xl:px-44 flex flex-col xl:flex-row justify-between items-center py-20 gap-8">
+				<div className="xl:w-3/4">
+					<p className="text-base md:text-lg">
+						Lorem ipsum dolor sit amet consectetur. Fermentum at integer
+						turpis ultricies sed nisl sit adipiscing. Sed purus auctor mi
+						phasellus sed ac urna laoreet in. Ante neque phasellus
+						scelerisque ac laoreet dictum enim orci mauris. Sed sed vitae
+						egestas vel. Sodales viverra gravida eu gravida accumsan.
+						Venenatis nulla sapien elementum eros. Tristique id tempus
+						scelerisque eros. Felis lorem dignissim turpis platea sit sem
+						integer.Quam vitae convallis blandit ornare sed urna facilisi.
+						Arcu faucibus netus id pellentesque odio. Platea euismod in
+						viverra sed pretium luctus cursus volutpat. Sed lobortis
+						pulvinar diam vel eget id aliquam blandit tellus. Magna
+						faucibus vitae mauris diam dui velit.Lorem ipsum dolor sit amet
+						consectetur. Fermentum at integer turpis ultricies sed nisl sit
+						adipiscing. Sed purus auctor mi phasellus sed ac urna laoreet
+						in. Ante neque phasellus scelerisque ac laoreet dictum enim
+						orci mauris. Sed sed vitae egestas vel. Sodales viverra gravida
+						eu gravida accumsan. Venenatis nulla sapien elementum eros.
+						Tristique id tempus scelerisque eros. Felis lorem dignissim
+						turpis platea sit sem integer.Quam vitae convallis blandit
+						ornare sed urna facilisi. Arcu faucibus netus id pellentesque
+						odio. Platea euismod in viverra sed pretium luctus cursus
+						volutpat. Sed lobortis pulvinar diam vel eget id aliquam
+						blandit tellus. Magna faucibus vitae mauris diam dui velit.
+					</p>
+				</div>
+
+				<div className="w-full xl:w-1/4 flex justify-start xl:justify-end">
+					<ul>
+						<li className="mb-4">
+							<a
+								href="/"
+								download
+								className="flex gap-2 items-center justify-start hover:text-brand transition-colors"
+							>
+								<i className="fa-solid fa-file-pdf fa-lg text-brand"></i>
+								ISO-0815
+							</a>
+						</li>
+						<li className="mb-4">
+							<a
+								href="/"
+								download
+								className="flex gap-2 items-center justify-start hover:text-brand transition-colors"
+							>
+								<i className="fa-solid fa-file-pdf fa-lg text-brand"></i>
+								ISO-0815/2
+							</a>
+						</li>
+						<li className="mb-4">
+							<a
+								href="/"
+								download
+								className="flex gap-2 items-center justify-start hover:text-brand transition-colors"
+							>
+								<i className="fa-solid fa-file-pdf fa-lg text-brand"></i>
+								ISO-0815/3
+							</a>
+						</li>
+						<li className="mb-4">
+							<a
+								href="/"
+								download
+								className="flex gap-2 items-center justify-start hover:text-brand transition-colors"
+							>
+								<i className="fa-solid fa-file-pdf fa-lg text-brand"></i>
+								ISO-0815/4
+							</a>
+						</li>
+					</ul>
+				</div>
+			</figure>
+		</section>
 	);
 };
 

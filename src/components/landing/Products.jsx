@@ -12,13 +12,13 @@ const Products = () => {
 				text="Unsere Expertisen"
 				descr="Was wir ihnen bieten können."
 			/>
-			<div className="px-4 lg:px-44 py-12 flex flex-col gap-20">
+			<div className="px-12 xl:px-44 py-12 flex flex-col gap-20">
 				<Product
 					title="Nassleimetiketten"
 					image={ImageBottles}
 					direction="lr"
 				/>
-				<Product title="Nassleimetiketten" image={ImlCup} direction="rl" />
+				<Product title="IML" image={ImlCup} direction="rl" />
 				<Product
 					title="transparente Folie"
 					image={TransparentBottles}
