@@ -1,5 +1,12 @@
+import HeadingMain from "../utility/HeadingMain";
+
 const Quality = () => {
-	return <h1>Quality Page</h1>;
+	return (
+		<HeadingMain
+			text="Qualität"
+			descr="Wir sind mehr als nur qualitätsbewusst."
+		/>
+	);
 };
 
 export default Quality;

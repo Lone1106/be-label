@@ -1,5 +1,7 @@
+import HeadingMain from "../utility/HeadingMain";
+
 const Application = () => {
-	return <h1>Application Page</h1>;
+	return <HeadingMain text="Bewerbe dich jetzt" hasDecsr={false} />;
 };
 
 export default Application;

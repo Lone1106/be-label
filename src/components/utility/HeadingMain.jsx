@@ -1,7 +1,7 @@
-const HeadingMain = ({ text, descr }) => {
+const HeadingMain = ({ text, descr, hasDescr = true }) => {
 	return (
 		<div className="bg-dark py-6 flex flex-col justify-center items-center gap-2">
-			<h2 className="text-light text-3xl font-bold tracking-wide">
+			<h2 className="text-light tracking-wide font-bold text-2xl md:text-4xl">
 				{text}
 			</h2>
 			<div className="flex justify-center items-center gap-2">
@@ -9,7 +9,9 @@ const HeadingMain = ({ text, descr }) => {
 				<div className="bg-brand rounded-full w-4 h-4"></div>
 				<div className="bg-brand rounded-full w-3 h-3"></div>
 			</div>
-			<p className="text-light">{descr}</p>
+			{hasDescr && (
+				<p className="text-light text-sm md:text-lg">{descr}</p>
+			)}
 		</div>
 	);
 };

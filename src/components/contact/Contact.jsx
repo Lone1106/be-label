@@ -1,5 +1,12 @@
+import HeadingMain from "../utility/HeadingMain";
+
 const Contact = () => {
-	return <h1>Contact page</h1>;
+	return (
+		<HeadingMain
+			text="Ansprechpartner"
+			descr="So können Sie uns erreichen."
+		/>
+	);
 };
 
 export default Contact;

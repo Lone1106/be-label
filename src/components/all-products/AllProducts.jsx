@@ -1,5 +1,12 @@
+import HeadingMain from "../utility/HeadingMain";
+
 const AllProducts = () => {
-	return <h1>All Products Page</h1>;
+	return (
+		<HeadingMain
+			text="Alle unsere Expertisen"
+			descr="Alles was wir ihnen bieten können."
+		/>
+	);
 };
 
 export default AllProducts;

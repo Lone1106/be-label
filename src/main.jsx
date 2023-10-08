@@ -10,6 +10,7 @@ import { lazy, Suspense } from "react";
 
 import Landing from "./components/landing/Landing.jsx";
 import Wrapper from "./components/utility/Wrapper";
+import Loading from "./components/utility/Loading";
 
 const About = lazy(() => import("./components/about/About"));
 const History = lazy(() => import("./components/history/History"));
@@ -67,7 +68,7 @@ const router = createBrowserRouter([
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <main>
-      <Suspense fallback={<p>Loading...</p>}>
+      <Suspense fallback={<Loading />}>
         <RouterProvider router={router} />
       </Suspense>
     </main>

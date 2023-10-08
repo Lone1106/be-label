@@ -1,5 +1,12 @@
+import HeadingMain from "../utility/HeadingMain";
+
 const Jobs = () => {
-	return <h1>Jobs Page</h1>;
+	return (
+		<HeadingMain
+			text="Stellenangebote"
+			descr="Werde teil unseres Teams."
+		/>
+	);
 };
 
 export default Jobs;

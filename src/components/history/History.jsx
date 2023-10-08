@@ -1,5 +1,7 @@
+import HeadingMain from "../utility/HeadingMain";
+
 const History = () => {
-	return <h1>History Page</h1>;
+	return <HeadingMain text="Über uns" descr="Ein paar Infos über uns." />;
 };
 
 export default History;

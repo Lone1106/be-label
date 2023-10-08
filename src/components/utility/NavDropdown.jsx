@@ -13,14 +13,8 @@ const NavDropdown = ({ title, destMain }) => {
 	}`;
 
 	return (
-		<li className="relative">
-			<NavLink
-				onClick={resetDropdown}
-				to={destMain}
-				className="relative after:block after:absolute after:w-0 hover:after:w-6 after:transition-all after:h-0.5 after:bg-brand after:left-1/2 after:translate-x-neg after:origin-center"
-			>
-				{title}
-			</NavLink>
+		<li className="relative w-max">
+			<NavItem text={title} dest={destMain} />
 			<i
 				className="fa-solid fa-chevron-down ml-2 cursor-pointer"
 				onClick={toggleDropdown}
