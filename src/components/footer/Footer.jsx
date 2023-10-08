@@ -40,7 +40,9 @@ const Footer = () => {
 						<i className="fa-brands fa-xl fa-linkedin"></i>
 					</a>
 				</div>
-				<p>©2023 Belhardt Label. All rights reserved.</p>
+				<p className="text-base md:text-lg text-center md:text-left">
+					©2023 Belhardt Label. All rights reserved.
+				</p>
 				<p className="flex flex-column gap-4 justify-center lg:justify-start">
 					<a href="/" className="underline">
 						Impressum

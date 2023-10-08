@@ -18,7 +18,10 @@ const AboveFolds = () => {
 					Tief oder Digitaldruck. Papier, Folie oder IML, wir sind für die
 					da!
 				</p>
-				<ButtonMain text="Erfahre mehr über uns" dest="/about/history" />
+				<ButtonMain
+					text="Erfahren Sie mehr über uns"
+					dest="/about/history"
+				/>
 			</div>
 		</section>
 	);
