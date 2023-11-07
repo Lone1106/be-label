@@ -12,7 +12,7 @@ const Products = () => {
 				text="Unsere Expertisen"
 				descr="Was wir ihnen bieten können."
 			/>
-			<div className="px-12 xl:px-44 py-12 flex flex-col gap-20">
+			<div className="px-12 xl:px-44 py-24 flex flex-col gap-20">
 				<Product
 					title="Nassleimetiketten"
 					image={ImageBottles}

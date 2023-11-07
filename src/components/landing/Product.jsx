@@ -8,15 +8,15 @@ const Product = ({ title, image, direction }) => {
 
 	const classesImgCont =
 		direction === "lr"
-			? "w-full md:w-1/5 flex justify-center md:justify-start"
-			: "w-full md:w-1/5 flex justify-center md:justify-end";
+			? "w-full md:w-1/3 flex justify-center md:justify-start"
+			: "w-full md:w-1/3 flex justify-center md:justify-end";
 
 	return (
 		<figure className={classes}>
 			<div className={classesImgCont}>
-				<img src={image} alt="Product image" className="w-48" />
+				<img src={image} alt="Product image" className="w-48 md:w-full" />
 			</div>
-			<div className="w-full h-full lg:w-4/5 flex flex-col items-start justify-center gap-2">
+			<div className="h-full w-full md:w-2/4 flex flex-col items-start justify-center gap-2">
 				<h4 className="font-bold text-xl">{title}</h4>
 				<p className="text-base text-sm lg:text-lg">
 					Lorem ipsum dolor sit amet consectetur. A lacinia bibendum eu
