@@ -3,13 +3,13 @@ import ButtonSecondary from "../utility/ButtonSecondary";
 const Product = ({ title, image, direction }) => {
 	const classes =
 		direction === "lr"
-			? "flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-8 w-full"
-			: "flex flex-col lg:flex-row-reverse justify-center lg:justify-between items-center gap-8 w-full";
+			? "flex flex-col lg:flex-row justify-center lg:justify-between items-center gap-24 w-full"
+			: "flex flex-col lg:flex-row-reverse justify-center lg:justify-between items-center gap-24 w-full";
 
 	const classesImgCont =
 		direction === "lr"
-			? "w-full md:w-1/3 flex justify-center md:justify-start"
-			: "w-full md:w-1/3 flex justify-center md:justify-end";
+			? "w-full md:w-1/4 flex justify-center md:justify-start"
+			: "w-full md:w-1/4 flex justify-center md:justify-end";
 
 	return (
 		<figure className={classes}>

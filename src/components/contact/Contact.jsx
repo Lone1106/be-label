@@ -15,10 +15,10 @@ const Contact = () => {
 				text="Ansprechpartner"
 				descr="So können Sie uns erreichen."
 			/>
-			<div className="px-12 xl:px-44 py-12 flex flex-col gap-12">
+			<div className="px-12 xl:px-60 py-12 flex flex-col gap-24">
 				<figure>
 					<HeadingSmall text="Geschäftsleitung" />
-					<div className="flex justify-center lg:justify-between flex-wrap gap-12">
+					<div className="flex justify-center lg:justify-between flex-wrap gap-4">
 						<ConactCard name="Susi Sonnenschein" image={Image1} />
 						<ConactCard name="Luca Todavia" image={Image2} />
 						<ConactCard name="Reiner Zufall" image={Image3} />
@@ -28,7 +28,7 @@ const Contact = () => {
 
 				<figure>
 					<HeadingSmall text="Verkauf Innendienst" />
-					<div className="flex justify-center lg:justify-between flex-wrap gap-12">
+					<div className="flex justify-center lg:justify-between flex-wrap gap-4">
 						<ConactCard name="Susi Sonnenschein" image={Image1} />
 						<ConactCard name="Luca Todavia" image={Image2} />
 						<ConactCard name="Reiner Zufall" image={Image3} />
@@ -38,7 +38,7 @@ const Contact = () => {
 
 				<figure>
 					<HeadingSmall text="Verkauf Außendienst" />
-					<div className="flex justify-center lg:justify-between flex-wrap gap-12">
+					<div className="flex justify-center lg:justify-between flex-wrap gap-4">
 						<ConactCard name="Susi Sonnenschein" image={Image1} />
 						<ConactCard name="Luca Todavia" image={Image2} />
 						<ConactCard name="Reiner Zufall" image={Image3} />

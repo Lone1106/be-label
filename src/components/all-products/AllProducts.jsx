@@ -14,7 +14,7 @@ const AllProducts = () => {
 				text="Alle unsere Expertisen"
 				descr="Alles was wir ihnen bieten können."
 			/>
-			<div className="py-12 px-12 xl:px-44 flex flex-col gap-20">
+			<div className="py-12 px-12 xl:px-60 flex flex-col gap-24">
 				<figure>
 					<HeadingSmall text="Produktarten" />
 					<div className="grid grid-cols-1 lg:grid-cols-2 gap-28">

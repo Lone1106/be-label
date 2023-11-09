@@ -2,7 +2,7 @@ import ButtonSecondary from "../utility/ButtonSecondary";
 
 const JobItem = ({ title, descr, jobId }) => {
 	return (
-		<figure className="flex flex-col gap-2 items-start">
+		<figure className="flex flex-col gap-2 items-start max-w-[530px]">
 			<div className="flex flex-col items-start">
 				<h3 className="font-bold text-xl md:text-2xl">{title}</h3>
 				<h4 className="text-lg font-bold">{descr}</h4>

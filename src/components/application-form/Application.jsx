@@ -6,7 +6,7 @@ const Application = () => {
 		<section>
 			<HeadingMain text="Bewerbe dich jetzt" hasDecsr={false} />
 
-			<figure className="px-12 xl:px-44 py-10 md:py-24 flex justify-center">
+			<figure className="px-12 xl:px-60 py-10 md:py-24 flex justify-center">
 				<form className="w-96">
 					<FormInput
 						label="Name"

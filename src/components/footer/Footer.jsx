@@ -2,7 +2,7 @@ import NavItem from "../utility/NavItem";
 
 const Footer = () => {
 	return (
-		<footer className="w-full flex flex-col gap-8 lg:flex-row justify-between items-center px-12 xl:px-44 py-7 bg-light">
+		<footer className="w-full flex flex-col gap-8 lg:flex-row justify-between items-center px-12 xl:px-60 py-7 bg-light">
 			<div className="text-light w-full">
 				<nav>
 					<ul className="flex gap-4 lg:gap-6 justify-center lg:justify-start flex-wrap lg:flex-nowrap">
