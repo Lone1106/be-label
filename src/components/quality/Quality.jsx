@@ -8,7 +8,7 @@ const Quality = () => {
 				descr="Wir sind mehr als nur qualitätsbewusst."
 			/>
 
-			<figure className="px-12 xl:px-60 flex flex-col xl:flex-row justify-between items-center pt-20 pb-32 gap-8">
+			<figure className="px-12 xl:px-0 xl:max-w-[1100px] mx-auto flex flex-col xl:flex-row justify-between items-center pt-20 pb-32 gap-8">
 				<div className="max-w-[650px]">
 					<p className="text-base md:text-lg">
 						Lorem ipsum dolor sit amet consectetur. Fermentum at integer

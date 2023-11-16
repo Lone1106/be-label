@@ -15,7 +15,7 @@ const Contact = () => {
 				text="Ansprechpartner"
 				descr="So können Sie uns erreichen."
 			/>
-			<div className="px-12 xl:px-60 py-12 flex flex-col gap-24">
+			<div className="px-12 xl:px-0 xl:max-w-[1100px] mx-auto py-12 flex flex-col gap-24">
 				<figure>
 					<HeadingSmall text="Geschäftsleitung" />
 					<div className="flex justify-center lg:justify-between flex-wrap gap-4">

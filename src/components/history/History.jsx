@@ -6,8 +6,8 @@ const History = () => {
 	return (
 		<section>
 			<HeadingMain text="Über uns" descr="Ein paar Infos über uns." />
-			<div className="px-12 lg:px-0 w-full flex flex-col justify-center items-center">
-				<figure className="py-20 max-w-[600px]">
+			<div className="px-12 xl:px-0 xl:max-w-[1100px] mx-auto w-full flex flex-col justify-center items-center">
+				<figure className="py-20 ">
 					<p className="mb-20 text-base md:text-lg">
 						Lorem ipsum dolor sit amet consectetur. Fermentum at integer
 						turpis ultricies sed nisl sit adipiscing. Sed purus auctor mi

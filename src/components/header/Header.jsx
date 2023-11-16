@@ -15,7 +15,7 @@ const Header = () => {
 		: "lg:hidden w-full h-full bg-light fixed inset-0 flex justify-center items-center transition-all duration-500 opacity-0 invisible";
 
 	return (
-		<header className="flex relative justify-between px-12 xl:px-60 py-7 bg-light sticky z-50">
+		<header className="flex relative justify-between px-12 xl:px-0 xl:max-w-[1100px] mx-auto py-7 bg-light sticky z-50">
 			<div className="w-full">
 				<NavLink to="/">
 					<img className="h-8 w-auto" src={Logo} alt="BE Label logo" />

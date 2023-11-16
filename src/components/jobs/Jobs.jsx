@@ -9,7 +9,7 @@ const Jobs = () => {
 				descr="Werde teil unseres Teams."
 			/>
 
-			<div className="px-12 xl:px-60 py-20 flex flex-wrap justify-between gap-12">
+			<div className="px-12 xl:px-0 xl:max-w-[1100px] mx-auto py-20 flex flex-wrap justify-between gap-12">
 				<JobItem
 					title="Ausbilding Mediengestalter m/w/d"
 					descr="3 jährige Berufsausbildung"
